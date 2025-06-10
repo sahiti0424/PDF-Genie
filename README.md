@@ -20,8 +20,8 @@ Built using the **MERN Stack** and powered by **Google Cloud tools**, PDF Genie 
 **Frontend**: React.js  
 **Backend**: Node.js, Express.js  
 **Database**: MongoDB (Mongoose ODM)  
-**Cloud & NLP**: Google Cloud Tools (Vertex AI, Document AI, or Palm API)  
-**Storage**: Cloudinary / Google Cloud Storage (optional)  
+**Cloud & NLP**: Google Cloud Tools (Vertex AI, Document AI, Gemini API)  
+**Storage**: Google Cloud Storage   
 **Authentication**: JWT (optional phase)
 
 ---

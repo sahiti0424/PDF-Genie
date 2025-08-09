@@ -14,10 +14,10 @@ app.use(express.json());
 const upload = multer({ dest: "uploads/" });
 
 // CONFIGURATION
-const bucketName = "pdf-demo-bucket-mani";
-const processorId = "4682997b424b980d"; // Document AI Processor ID
-const projectId = "valid-verbena-449610-q5";
-const location = "us"; // or your processor region
+const bucketName = "";
+const processorId = ""; // Document AI Processor ID
+const projectId = "";
+const location = ""; // or your processor region
 
 // Add this check to verify processor exists
 const checkProcessor = async () => {
@@ -109,7 +109,7 @@ app.post("/ask/:docId", async (req, res) => {
 
     // Call Gemini with the stored text
     const geminiRes = await axios.post(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBGi7wobJF7eIRDJoGNfddsuoOo-W9ew9E",
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=-",
       {
         contents: [
           {

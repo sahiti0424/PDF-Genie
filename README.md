@@ -60,12 +60,3 @@ Built using the **MERN Stack** and powered by **Google Cloud tools**, PDF Genie 
 - 🧠 Better context caching for longer PDFs  
 - 📲 Export chat summary to text or PDF
 
----
-
-## 🧑‍💻 Developed By
-
-**Manikanta Sandula**  
-
-> *A project that reflects my love for building useful tools with AI, fullstack tech, and cloud integration. PDF Genie is one step closer to making document reading smarter.*
-
-```
